@@ -10,15 +10,15 @@
             "answers": [
                 {
                     "answer": "public type getVariableName(){ return variablename; }",
-                    "feedback": false
-                },
-                {
-                    "answer": "string iets{get{return iets}, set{}}",
-                    "feedback": false
-                },
-                {
-                    "answer": "iets.get{ return this; }",
                     "feedback": true
+                },
+                {
+                    "answer": "type iets{get{return iets}, set{}}",
+                    "feedback": false
+                },
+                {
+                    "answer": "varname.get{ return this; }",
+                    "feedback": false
                 }
             ]
         },

@@ -98,11 +98,13 @@ function quizGekozen() {
         for (let i = 0; i < quizfiles.length; i++) {
             makeAjaxCall(quizfiles[i], "GET").then(handleReceivedData); // doe het! wacht op promise
             function handleReceivedData(jsonString) { // pak de data aan
-                quiz = (JSON.parse(jsonString));
-                console.log(quiz);
-                console.log(quiz.quizMetaData.title);
+                tijdelijkquiz = (JSON.parse(jsonString));
+                console.log(tijdelijkquiz);
+                console.log(tijdelijkquiz.quizMetaData.title);
                 console.log(title);
-                if (title == quiz.quizMetaData.title) {
+                if (title == tijdelijkquiz.quizMetaData.title) {
+                    quiz = tijdelijkquiz;
+                    console.log("ja dit gaat goed!");
                     initQuiz();
                     return;
                 }
