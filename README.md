@@ -4,7 +4,7 @@
 Link naar de online versie: [http://29151.hosts2.ma-cloud.nl/Quiz-1-Json/MyCode/index.html]
 
 Demo video: 
-![alt text](https://i.gyazo.com/a90e361ff0f2e9fd1f7894974ddf05e6.mp4 "demo van de quiz")
+![alt text](https://i.gyazo.com/e1f0c24f8969bdc997c3aa673ca16189.png "demo van de quiz")
 
 ## Opdracht informatie
 simple quiz gemaakt waarbij we een json gebruiken om alle informatie te krijgen
